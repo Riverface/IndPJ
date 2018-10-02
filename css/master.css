@@ -1,0 +1,40 @@
+
+.container
+{
+border: black 2px solid;
+border-radius: 20px;
+width: 200px;
+float:left;
+background-color: lightgreen;
+font-size:60%;
+font-weight: 500;
+
+}
+.maincontain
+{
+border: black 2px solid;
+border-radius: 20px;
+border-color: brown;
+width: 60%;
+float:left;
+background-color: lightgray;
+margin-left: 100px
+}
+.title
+{
+  font-size: 100%;
+}
+.alert-info
+{
+padding-left: 20px;
+border-bottom: 2px solid;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+margin-left: -9.5%;
+margin-right: -9.5%;
+}
+
+.sidebar
+{
+
+}
