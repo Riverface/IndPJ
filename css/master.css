@@ -1,24 +1,28 @@
 
 .container
 {
-border: black 2px solid;
-border-radius: 20px;
-width: 200px;
-float:left;
-background-color: lightgreen;
-font-size:60%;
-font-weight: 500;
-
+  padding-left:0px;
+  padding-right:0px;
+  border: black 2px solid;
+  border-radius: 20px;
+  width: 300px;
+  display: inline-block;
+  background-color: lightgreen;
+  font-size:60%;
+  font-weight: 500;
+  float: left;
+  height: 300px;
 }
 .maincontain
 {
-border: black 2px solid;
-border-radius: 20px;
-border-color: brown;
-width: 60%;
-float:left;
-background-color: lightgray;
-margin-left: 100px
+  border: black 2px solid;
+  border-radius: 20px;
+  border-color: brown;
+  float:left;
+  background-color: lightgray;
+  margin-left:  5%;
+  min-width:90%;
+  max-width: 90%;
 }
 .title
 {
@@ -26,15 +30,29 @@ margin-left: 100px
 }
 .alert-info
 {
-padding-left: 20px;
-border-bottom: 2px solid;
-border-top-left-radius:20px;
-border-top-right-radius:20px;
-margin-left: -9.5%;
-margin-right: -9.5%;
+  padding-left: 20px;
+  border-bottom: 2px solid;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  display: block flex;
 }
 
 .sidebar
 {
 
+}
+.jumbotron
+{
+  height: 300px;
+}
+.stink
+{
+  padding-left: 10px;
+}
+
+.b
+{
+margin-left: 10px;
+padding-right: 10px;
+display:block
 }
