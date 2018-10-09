@@ -29,8 +29,8 @@
   font-size: 100%;
   float:left;
   align-content:auto;
-  margin-right:auto;
-  float:right;
+  padding-right:100px;
+  float:left;
   display:flex;
 }
 .alert-info
