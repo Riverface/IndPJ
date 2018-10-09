@@ -5,13 +5,13 @@
   padding-right:0px;
   border: black 2px solid;
   border-radius: 20px;
-  width: 300px;
-  display: inline-block;
+  width: 400px;
+  display: block;
   background-color: lightgreen;
-  font-size:60%;
+  font-size:50%;
   font-weight: 500;
   float: left;
-  height: 300px;
+  height:300px;
 }
 .maincontain
 {
@@ -27,6 +27,11 @@
 .title
 {
   font-size: 100%;
+  float:left;
+  align-content:auto;
+  margin-right:auto;
+  float:right;
+  display:flex;
 }
 .alert-info
 {
@@ -37,13 +42,15 @@
   display: block flex;
 }
 
-.sidebar
-{
-
-}
 .jumbotron
 {
+  font-size: 200%;
+  background-color: lightblue;
+  border-radius:20px;
+  border:outset 10px darkgray;
+  min-height:300px;
   height: 300px;
+
 }
 .stink
 {
@@ -52,7 +59,15 @@
 
 .b
 {
-margin-left: 10px;
-padding-right: 10px;
-display:block
+  margin-left: 10px;
+  padding-right: 10px;
+  display:block
+}
+
+.hork
+{
+  width:250px;
+  height:250px;
+display: block;
+margin-left: 15%;
 }
